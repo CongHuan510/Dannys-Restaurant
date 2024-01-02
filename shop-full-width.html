@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Shop – Dannys Restaurant</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/shop-full-width.css'>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-main">
+                <div class="header-container">
+                    <div class="header-content">
+                        <div class="main-left">
+                            <div class="logo-img">
+                                <a href="home.html">
+                                    <img src="./images/logo.png" alt="Logo" width="185">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="main-center">
+                            <div class="menu">
+                                <div class="menu-list">
+                                    <ul class="menu-main">
+                                        <li class="menu-item">
+                                            <a href="home.html" class="active"><span>Home</span></a>
+                                            <ul class="sub_menu">
+                                                <li>
+                                                    <a href="home.html"><span>Home – Default</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span>Home – Short</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span>Home – Oblique</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#"><span>Menu</span></a>
+                                            <ul class="sub_menu">
+                                                <li>
+                                                    <a href="menu-stretched.html"><span>Menu – Stretched</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span>Menu – Boxed</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#"><span>Reservation</span></a>
+                                            <ul class="sub_menu">
+                                                <li>
+                                                    <a href="reservation-form.html"><span>Reservation Form</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span>Reservation Form and content</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#"><span>Shop</span></a>
+                                            <ul class="sub_menu">
+                                                <li>
+                                                    <a href="shop-full-width.html"><span>Shop full width</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#"><span>News</span></a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#" class="active"><span>Contact</span></a>
+                                            <ul class="sub_menu">
+                                                <li>
+                                                    <a href="contact-simple.html"><span>Contact – Simple</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span>Contact – With Google Map</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <span id="hide_menu">x</span>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-right">
+                            <div class="mainNavResp">
+                                <a href="#" class="menuBurger" id="menuBurger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                            <div class="cart_header">
+                                <div class="component">
+                                    <a href="" class="cart_header_item">
+                                        <span><i class="fa-solid fa-cart-shopping" style="color: #5f6163;"></i></span>
+                                        <span class="item">
+                                            <span class="item_title">ITEM(S)</span>
+                                            <span class="item_count">0</span>
+                                        </span>
+                                        <span class="item">
+                                            <span class="item_title">TOTAL</span>
+                                            <span class="item_price">
+                                                <span>
+                                                    <bdi>
+                                                        <span>$</span>0.00
+                                                    </bdi>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <a href="" class="reservations">
+                                    <span>Reservations</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row-breadcrumbs">
+                <div class="col">
+                    <nav class="breadcrumb-trail">
+                        <ul>
+                            <meta name="numberOfItems" content="2">
+                            <meta name="itemListOrder" content="Ascending">
+                            <li>
+                                <a href="index.html">
+                                    <span>Home</span>
+                                </a>
+                                <meta itemprop="position" content="1">
+                            </li>
+                            <li>
+                                <span>
+                                    <span>Shop</span>
+                                </span>
+                                <meta itemprop="position" content="2">
+                            </li>
+                        </ul>
+                    </nav>
+                    <hr class="breadcrumbsSep">
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <div class="content-row">
+                <div class="main-body">
+                    <div class="product-header">
+                        <h1>Shop</h1>
+                    </div>
+                    <div class="product-wrapper">
+                        <p>Showing 1–11 of 14 results</p>
+                        <form class="woocommerce-ordering" method="get">
+                            <select name="" id="">
+                                <option value="menu_order">Default sorting</option>
+                                <option value="popularity" selected="selected">Sort by popularity</option>
+                                <option value="rating">Sort by average rating</option>
+                                <option value="date">Sort by latest</option>
+                                <option value="price">Sort by price: low to high</option>
+                                <option value="price-desc">Sort by price: high to low</option>
+                            </select>
+                            <input type="hidden" name="paged" value="1">
+                        </form>
+                        <ul class="products">
+                            <li class="product">
+                                <a href="#" class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_06.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_06.jpg 720w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_06-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_06-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_06-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_06-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_06-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Apple cider sauce and pork</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>15.90</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/apple-cider-sauce-and-pork-loin-chops/"
+                                    class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_13.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_13.jpg 660w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_13-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_13-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_13-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_13-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_13-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Aubergine Dip</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>14.50</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/apple-cider-sauce-and-pork-loin-chops/"
+                                    class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_11.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_11.jpg 660w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_11-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_11-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_11-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_11-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_11-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Baked Teriyaki Chicken</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>24.90</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="#" class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_09.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_09.jpg 660w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_09-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_09-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_09-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_09-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_09-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Beef & Barley Bun with Horseradish</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>11.00</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/apple-cider-sauce-and-pork-loin-chops/"
+                                    class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_12.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_12.jpg 660w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_12-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_12-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_12-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_12-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_12-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Chicken wings, agrodolce style</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>12.00</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/apple-cider-sauce-and-pork-loin-chops/"
+                                    class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_05.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_05.jpg 720w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_05-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_05-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_05-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_05-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_05-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Creamy rice pudding</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>9.90</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="#" class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_10.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_10.jpg 660w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_10-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_10-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_10-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_10-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_10-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Halloumi with griddled vegetables</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>9.00</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/apple-cider-sauce-and-pork-loin-chops/"
+                                    class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_04.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_04.jpg 720w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_04-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_04-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_04-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_04-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_04-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">
+                                            Meatball Nirvana</h2>
+                                        <span class="price">
+                                            <span class="amount">
+                                                <bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>10.90</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart">
+                                    <a href="?add-to-cart=270" data-quantity="1" class="button_add_to_cart"
+                                        data-product_id="270" data-product_sku=""
+                                        aria-label="Add “Apple cider sauce and pork” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/test/"
+                                    class="woocommerce-LoopProduct-link">
+                                    <img width="300" height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_01.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_01.jpg 750w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_01-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_01-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_01-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_01-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_01-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">Oven Roasted duck with special
+                                            sousage</h2>
+                                        <span class="price">
+                                            <span class="woocommerce-Price-amount amount"><bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>25.00</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart"><a href="?add-to-cart=283" data-quantity="1"
+                                        class="button_add_to_cart" data-product_id="283" data-product_sku=""
+                                        aria-label="Add “Oven Roasted duck with special sousage” to your cart"
+                                        aria-describedby="" rel="nofollow">Add to cart</a></div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/peanut-butter-bars/"
+                                    class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300"
+                                        height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_14.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_14.jpg 660w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_14-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_14-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_14-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_14-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_14-600x600.jpg 600w"
+                                        sizes="(max-widtprodInfo-wrapperh: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">Peanut butter bars</h2>
+                                        <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>25.00</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart"><a href="?add-to-cart=274" data-quantity="1"
+                                        class="button_add_to_cart_button" data-product_id="274" data-product_sku=""
+                                        aria-label="Add “Peanut butter bars” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart</a></div>
+                            </li>
+                            <li class="product">
+                                <a href="https://demos.hogash.com/dannys/product/stuffed-peppers/"
+                                    class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300"
+                                        height="300"
+                                        src="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_02.jpg"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                        decoding="async" loading="lazy"
+                                        srcset="https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_02.jpg 720w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_02-150x150.jpg 150w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_02-300x300.jpg 300w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_02-180x180.jpg 180w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_02-360x360.jpg 360w, https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/prod_02-600x600.jpg 600w"
+                                        sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="prodInfo-wrapper">
+                                        <h2 class="woocommerce-loop-product__title">Stuffed Peppers</h2>
+                                        <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
+                                                        class="woocommerce-Price-currencySymbol">$</span>11.50</bdi></span></span>
+                                    </div>
+                                </a>
+                                <div class="btnAddToCart"><a href="?add-to-cart=271" data-quantity="1"
+                                        class="button_add_to_cart" data-product_id="271" data-product_sku=""
+                                        aria-label="Add “Stuffed Peppers” to your cart" aria-describedby=""
+                                        rel="nofollow">Add to cart</a></div>
+                            </li>
+                            <li class="fancyPag" style="height:282.75px">
+                                <div class="fancyPag-inner">
+                                    <div class="fancyPag-arrows">
+                                        <a href="https://demos.hogash.com/dannys/page/2/"
+                                            class="pagination-item-link pagination-item-next-link">
+                                            <h2>Next</h2>
+                                            <img class="svgArrows-next" src="./images/arrow-right-svgrepo-com.svg"
+                                                href="https://demos.hogash.com/dannys/page/2/" alt="">
+                                        </a>
+                                    </div>
+                                    <ul class="fancyPag-numbers">
+                                        <li class="pagination-item pagination-item-active active">
+                                            <span class="pagination-item-span pagination-item-active-span">1</span>
+                                        </li>
+                                        <li class="pagination-item">
+                                            <a class="pagination-item-link"
+                                                href="https://demos.hogash.com/dannys/page/2/">
+                                                <span class="pagination-item-span">2</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div id="wooArchive-pagination" class="pagination wooArchive-pagination">
+                            <ul class="paginationList">
+                                <li class="pagination-item pagination-item-prev pagination-prev">
+                                    <img src="./images/arrow-left-svgrepo-com.svg" alt="">
+                                </li>
+                                <li class="pagination-item pagination-item-active active">
+                                    <span class="pagination-item-span pagination-item-active-span">
+                                        1
+                                    </span>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item-link" href="https://demos.hogash.com/dannys/shop/page/2/">
+                                        <span class="pagination-item-span">2</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item pagination-item-next pagination-next">
+                                    <a href="https://demos.hogash.com/dannys/shop/page/2/"
+                                        class="pagination-item-link pagination-item-next-link" data-title="next">
+                                           <img src="./images/arrow-right-svgrepo-com.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="eluid3f393bfe">
+            <div class="sale-off">
+                <div class="sale-off-main">
+                    <div class="sale-off-item">
+                        <div class="sale-off-content">
+                            <div class="sale-off-text">
+                                <h5>Subscribe to our</h5>
+                                <h2>Newsletter</h2>
+                                <div class="sale-off-img">
+                                    <img src="./images/offer_bubble.png">
+                                </div>
+                                <p>Subscribe to our newsletter and receive 15% discount from your order.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="eluid35523455">
+                        <div class="sale-off-form">
+                            <div class="sale-off-formcontent">
+                                <div class="eluidcdecee72">
+                                    <form method="post" action="" class="form_subscribe" name="newsletter_form">
+                                        <input type="email" name="email" placeholder="YOUR@MAIL.COM">
+                                        <button type="button">SUBSCRIBE</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="eluid46dec2ac">
+            <div class="content_footer">
+                <div class="main-footer">
+                    <div class="eluid2d7afe2c">
+                        <div class="mainWrapper">
+                            <div class="mainContent">
+                                <div class="eluidde944ac3">
+                                    <div class="row">
+                                        <div class="eluidd2748083">
+                                            <div class="mainWrapper">
+                                                <div class="mainContent">
+                                                    <p>Chef Taylor Bonnyman, working in collaboration with Head Chef
+                                                        Marguerite Keogh, offer elegant & playful modern British
+                                                        cooking.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="eluid5f960205">
+                                            <div class="mainWrapper">
+                                                <div class="mainContent">
+                                                    <div class="eluidee06842a">
+                                                        <ul class="menu_eluid5f960205">
+                                                            <li><a href=""><span>Home</span></a></li>
+                                                            <li><a href=""><span>Menu</span></a></li>
+                                                            <li><a href=""><span>Reservation</span></a></li>
+                                                            <li><a href=""><span>Shop</span></a></li>
+                                                            <li><a href=""><span>News</span></a></li>
+                                                            <li><a href=""><span>Contact</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="eluid83325b06">
+                        <div class="mainWrapper">
+                            <div class="mainContent">
+                                <div class="button_eluid83325b06">
+                                    <a href=""><span>ONLINE RESERVATION</span></a>
+                                </div>
+                                <h4>Follow</h4>
+                                <div class="eluid387a5df7">
+                                    <ul class="icon-list">
+                                        <li>
+                                            <a href="">
+                                                <span><i class="fa-brands fa-facebook-f"
+                                                        style="color: #999999;"></i></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span><i class="fa-brands fa-twitter"
+                                                        style="color: #999999;"></i></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span><i class="fa-brands fa-instagram"
+                                                        style="color: #999999;"></i></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span><i class="fa-solid fa-bell" style="color: #999999;"></i></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eluid4b49d900">
+                        <div class="mainWrapper halign-left">
+                            <div class="mainContent ">
+                                <p class="text1">+4 1800 555 1234</p>
+                                <p class="text2">BOOKATABLE@RESTAURANT.COM</p>
+                                <p class="text3">
+                                    49 Featherstone Street
+                                    <br>
+                                    LONDON
+                                    <br>
+                                    EC1Y 8SY
+                                    <br>
+                                    UNITED KINGDOM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./slick/jquery-3.7.1.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script>
+        var isScrollEnabled = true;
+        $(document).ready(function () {
+            // Sự kiện cuộn header
+            $(window).scroll(function () {
+                if (window.innerWidth > 992 && isScrollEnabled) {
+                    var scroll = $(this).scrollTop();
+                    if (scroll > 0) {
+                        $('header').addClass('sticky');
+                        $('header').css('height', '75px');
+                    } else {
+                        $('header').removeClass('sticky');
+                        $('header').css('height', '150px');
+                    }
+                }
+            });
+            // Sự kiện thay đổi kích thước cửa sổ
+            $(window).resize(function () {
+                if (window.innerWidth <= 992) {
+                    isScrollEnabled = false;
+                    $('header').removeClass('sticky');
+                    $('header').css('height', '150px');
+                } else {
+                    isScrollEnabled = true;
+                }
+            });
+        });
+    </script>
+    <script>
+        //Sự kiện open and close menu
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuBurger = document.getElementById('menuBurger');
+            var mainCenter = document.querySelector('.main-center');
+            var hideMenuButton = document.getElementById('hide_menu');
+
+            menuBurger.addEventListener('click', function () {
+                mainCenter.classList.toggle('menu-open');
+            });
+
+            hideMenuButton.addEventListener('click', function () {
+                mainCenter.classList.remove('menu-open');
+            });
+        });
+        // Sự kiện open and close sub_menu
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuItems = document.querySelectorAll('.menu-main .menu-item');
+
+            menuItems.forEach(item => {
+                const subMenu = item.querySelector('.sub_menu');
+
+                item.addEventListener('click', function (event) {
+                    if (subMenu && !subMenu.contains(event.target)) {
+                        event.preventDefault();
+                        const isOpen = this.classList.contains('open-submenu');
+                        menuItems.forEach(otherItem => {
+                            otherItem.classList.remove('open-submenu');
+                        });
+                        if (!isOpen) {
+                            this.classList.add('open-submenu');
+                        }
+                    }
+                });
+
+                // Xử lý sự kiện mouseout để đóng sub-menu khi chuột rời khỏi mục menu
+                item.addEventListener('mouseout', function (event) {
+                    if (subMenu && !this.contains(event.relatedTarget)) {
+                        this.classList.remove('open-submenu');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>
