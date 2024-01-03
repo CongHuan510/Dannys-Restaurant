@@ -439,7 +439,7 @@ header.sticky {
     text-transform: uppercase;
     text-align: center;
     color: #cc9933;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -1547,7 +1547,9 @@ input {
         width: 100%;
     }
 
-
+    .eluid001a3dfe h3 {
+        margin-top: 40px;
+    }
 
     
     /*FOOTER*/

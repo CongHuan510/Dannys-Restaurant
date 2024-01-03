@@ -1271,7 +1271,7 @@ ul.products::before {
 
 }
 
-.products li::before {
+.products > li::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1414,6 +1414,10 @@ bdi {
     border-color: currentColor;
 }
 
+.fancyPag::before {
+    opacity: 0 !important; 
+}
+
 .fancyPag {
     width: 30.75%;
     background-color: #ffffff;
@@ -1534,7 +1538,7 @@ ul.products::after {
 }
 
 .wooArchive-pagination {
-    margin-top: 40px;
+    margin-top: 20px;
     display: none;
 }
 
@@ -1547,7 +1551,9 @@ ul.products::after {
     line-height: 1.6;
     color: #888;
     list-style-type: none;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
 }
 
 .paginationList::before {

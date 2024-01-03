@@ -1252,6 +1252,12 @@ main {
         margin-right: 0px;
     }
 
+    .eluid001a3dfe h3 {
+        margin-top: 50px;
+    }
+
+    
+
         /*FOOTER*/
     .eluid46dec2ac {
         display: flex;
@@ -1319,6 +1325,10 @@ main {
 
 /* Mobile: width < 768px*/
 @media screen and (max-width: 768px) {
+    .eluidffaef84f {
+        min-height: 520px;
+    }
+    
     .eluid001a3dfe h1 {
         font-size: 62px;
     line-height: 62px;

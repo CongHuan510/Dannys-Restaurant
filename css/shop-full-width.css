@@ -600,7 +600,6 @@ ul.products::before {
     transition: opacity 0.3s ease;
 }
 
-
 .products li:hover::before {
     opacity: 1; 
 }
@@ -729,6 +728,9 @@ bdi {
     color: #fff;
     border-color: currentColor;
 }
+.fancyPag::before {
+    opacity: 0 !important; 
+}
 
 .fancyPag {
     width: calc(25% - 3px);
@@ -852,7 +854,7 @@ ul.products::after {
 }
 
 .wooArchive-pagination {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 1170px;
     display: none;
 }
@@ -866,7 +868,9 @@ ul.products::after {
     line-height: 1.6;
     color: #888;
     list-style-type: none;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
 }
 
 .paginationList::before {
@@ -1383,10 +1387,7 @@ ul.products::after {
     }
 
     /*Main*/
-    .container {
-        width: 970px;
-    }
-
+    
     .product {
         width: calc(33.3333333333% - 3px);
         clear: none;
@@ -1548,9 +1549,6 @@ ul.products::after {
     }
 
     /*Main*/
-    .container {
-        width: 750px;
-    }
 
     .product {
         width: calc(50% - 3px);
@@ -1625,6 +1623,9 @@ ul.products::after {
 /* Mobile: width < 768px*/
 @media screen  and (max-width: 768px) {
 
+    .container {
+        width: 100%;
+    }
     .product {
         width: calc(100% - 3px);
       display: block;
@@ -1662,7 +1663,30 @@ ul.products::after {
 }
 
 @media screen and (max-width: 567px) {
+
+}
+
+
+
+@media (min-width: 768px) {
     .container {
-        max-width: 550px;
+        width: 750px;
     }
 }
+
+
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+
